@@ -1,0 +1,8 @@
+aws_region                  = "ap-south-2"
+instance_type               = "t3.micro"
+ami                         = "ami-02774d409be696d81"
+key_name                    = "terra-key"
+instance_name               = "terraform-ec2"
+cidr_block                  = "10.0.0.0/16"
+availability_zone           = "ap-south-2a"
+public_subnet_cidr_block    = "10.0.1.0/24"
