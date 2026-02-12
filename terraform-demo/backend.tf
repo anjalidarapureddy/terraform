@@ -1,6 +1,6 @@
 terraform{
     backend "s3" {
-        bucket = "anjali_terra_remote_bucket"
+        bucket = "anjali-terra-remote-bucket"
         key = "terra/terraform.tfstate"
         region = "ap-south-2"
         encrypt = true
